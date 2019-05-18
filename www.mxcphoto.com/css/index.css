@@ -1,0 +1,394 @@
+/* 页头 */
+iframe.my_header{
+    width: 100%;
+    height: 110px;
+    margin-top: -5px;
+}
+/* 页尾 */
+footer .my_footer{
+    height:1000px;
+    width: 100%;
+}
+/* 内容1 */
+.share{
+    width: 1200px;
+    margin: 45px auto;
+    overflow: hidden;
+}
+.share a{
+    display: block;
+    width: 397px;
+    height: 154px;
+    float: left;
+}
+.share a.wb{
+    background: url(../theme/bg/07.png) no-repeat center;
+    border-right: 4px solid #d9d9d9;
+}
+.share a.dz{
+    background: url(../theme/bg/06.png) no-repeat center;
+    border-right: 4px solid #d9d9d9;
+}
+.share a.wx{
+    background: url(../theme/bg/05.png) no-repeat center;
+}
+/* 梦想城摄影客片大赏  */
+.padge02{
+    width: 100%;
+    background: #232323;
+    height: 666px;
+    padding: 42px 0px;
+}
+.swiper-container{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    width: 100%;
+}
+.padge02 .swiper2{
+    width: 1200px;
+}
+.swiper-wrapper{
+    position: relative;
+    width: 100%;
+}
+/* 蔓幸福大理站 */
+.padge02 ul{
+    width: 1200px;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+}
+.padge02 ul li{
+    widows: 400px;
+    display: block;
+    float: left;
+}
+.padge02 ul li a{
+    position: relative;
+    display: block;
+    color:#fff;
+}
+.padge02 ul li a img{
+    height: auto;
+    display: block;
+}
+/* 颜色 */
+.padge02 li a span{
+    position: absolute;
+    top: 140px; 
+    background-color:#ce2a0580;
+    width: 285px;
+    height: 100px;
+}
+.padge02 li a span p{
+    font-size: 24px;
+    position: absolute;
+    left: 115px;
+    top: 20px;
+}
+.padge02 li a span i{
+    font-size: 12px;
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    text-decoration: underline;
+}
+.padge02 .li02 a span{
+    background: #00a7df9b;
+}
+.padge02 .li03 a span{
+    background: #be0078a1;
+}
+.padge02 .li04 a span{
+    background: #dea9368c;
+}
+.padge02 .li05 a span{
+    background: #7e373280;
+}
+.padge02 .li06 a span{
+     background: #05af908a;
+}
+/* 梦想城摄影客片大赏 */
+.padge03{
+    width: 100%;
+    height: 676px;
+    background: url(../images/p03.jpg) no-repeat center;
+    position: relative;
+}
+.padge03 .picbox{
+    width: 1200px;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+.padge03 .picbox .picbox_title b{
+    display: block;
+    font-size: 40px;
+    line-height: 100px;
+    font-weight: bold; 
+}
+.padge03 .picbox .picbox_title i{
+    display: block;
+    font-size: 18px;
+    line-height: 50px;
+}
+.padge03 .picbox .picbox_title small{
+    display: block;
+    font-size: 16px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+.padge03 .picbox ul{
+    overflow: hidden;
+    background: white;
+    padding-top: 4px;
+}
+.padge03 .picbox ul li{
+    width: 295px;
+    height: 181px;
+    float: left;
+    margin-left: 4px;
+    margin-bottom: 4px;
+}
+.padge03 .picbox ul li a{
+    display: block;
+    overflow: hidden;
+}
+/* 梦想城摄影 */
+.padge04{
+    width: 100%;
+    height: 800px;
+    background: #232323;
+    padding: 60px 0px 0px 0px;
+}
+.padge04 .boxx{
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    position: relative;
+}
+.padge04 .boxx .wrap{
+    background:url(../images/p05.jpg) no-repeat center;
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+}
+.padge04 .picbox{
+    width: 1200px;
+    height: 600px;
+    display: block;
+    position: relative;
+    color: #fff;
+    z-index: 101;
+}
+
+.padge04 .picbox .picbox_title p{
+    font-size: 50px;
+    line-height: 59px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 820px;
+}
+.padge04 .picbox .picbox_title i{
+    font-size: 30px;
+    line-height: 130px;
+    margin-top: 15px;
+    position: absolute;
+    left: 800px;
+}
+.padge04 .picbox .picbox_title span{
+    display: inline;
+    white-space: nowrap;
+    position: absolute;
+    left: 756px;
+    top: 120px;
+    font-size: 12px;
+}
+.padge04 .picbox .picbox_title span a{
+    color: #fff;
+    padding:0 10px;
+}
+/* 三 */
+.padge04 .boxx .wrap .picbox .boxx_tab{
+    width: 1200px;
+    height: 100px;
+    position: absolute;
+    left: 40%;
+    margin-right: 300px;
+    top: 180px;
+}
+.padge04 .boxx .wrap .picbox .boxx_tab ul li{
+    float: left;
+    padding: 20px;
+}
+.padge04 .picbox .boxx_tab ul li a img{
+    border: 3px solid #EE4B4B;
+}
+.padge04 .picbox .boxx_tab ul li a img:hover{
+    border: 3px solid #FFDE00;
+}
+.padge04 .picox_footer{
+    position: absolute;
+    top: 337px;
+    left: 30%;
+    margin: auto;
+    text-align: center;
+}
+.padge04 .picox_footer a{
+    display: block;
+    width: 137px;
+    height: 37px;
+    background: #000000;
+    line-height: 37px;
+    font-size: 18px;
+    border: 2px solid #FFDE00;
+    color: #FFDE00;
+    margin: 0 auto;    
+}
+.padge04 .picox_footer h3{
+    line-height: 24px;
+    font-size: 12px;
+    color: #adadad;
+}
+.padge04 .picox_footer p{
+    width: 1200px;
+    line-height: 15px;
+    font-size: 10px;
+    color: #adadad;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+/* 摄影资讯 */
+.padge05{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    background: #232323;
+}
+.padge05 .picbox{
+    width: 1200px;
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 19%;
+    z-index: 100;
+    overflow: hidden;
+}
+.padge05 .picbox .picbox_title{
+    width: 1200px;
+    color: #fff;text-align: center;
+}
+.padge05 .picbox .picbox_title b{
+    font-size: 35px;
+    line-height: 50px;
+    display: block;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+}
+.padge05 .picbox .picbox_title i{
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 20px;
+    display: block;
+}
+.padge05 .picbox .picbox_title em{
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 20px;
+    display:block;
+}
+.padge05 .picbox .picbox_title span{
+    line-height: 20px;
+    display: block;
+    white-space: nowrap;
+    padding-top: 13px;
+}
+.padge05 .picbox .picbox_title span a.lan{
+    color: #4DB3F4;  
+}
+.padge05 .picbox .picbox_title span a.lan:hover{ 
+    text-decoration: underline;
+}
+.padge05 .picbox .picbox_title span a.hong{
+    color: #AC1200;    
+}
+.padge05 .picbox .picbox_title span a.hong:hover{
+    text-decoration:underline;
+}
+.padge05 .picbox .picbox_title span a.lv{
+    color: #0DA31B;  
+}
+.padge05 .picbox .picbox_title span a.lv:hover{
+    text-decoration: underline;
+}
+.padge05 .picbox .picbox_title span a.huang{
+    color: #FFDE12;
+}
+.padge05 .picbox .picbox_title span a.huang:hover{
+    text-decoration: underline;
+}
+/* 下面的 */
+.padge05 .smallbox{
+    margin-top: 20px;
+    width: 1250px;
+}
+.padge05 .smallbox .smallfile ul li{
+    float: left;
+    width: 600px;
+    padding: 0 20px 20px 0;
+}
+.padge05 .smallbox ul li span{
+    width: 330px;
+    position: absolute;
+    top: -10px;
+    left: 225px;
+    font-size: 12px;
+    padding:0 20px;
+}
+/* 文字 */
+.padge05 .smallbox ul li a{
+    display: block;
+    height: 170px;
+    background-color: #F0F0F0;
+    position: relative;
+}
+.padge05 .smallbox ul li a:hover{
+    background-color:#FFD307;
+}
+.padge05 .smallbox ul li a ins{
+    float: left;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.padge05 .smallbox ul li a span b{
+    font-size: 18px;
+    display: block;
+    line-height: 30px;
+    color: #000000;
+    margin-top: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.padge05 .smallbox ul li a span cite{
+    height: 54px;
+    line-height: 18px;
+    color: #000000;
+    padding-top: 16px;
+    display: block;
+    font-style: normal;
+}
+.padge05 .smallbox ul li a span i{
+    line-height: 18px;
+    color: #a0a0a0;
+    font-style: normal;
+    padding-top: 16px;
+    display: block;
+} 
+

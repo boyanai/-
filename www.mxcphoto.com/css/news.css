@@ -1,0 +1,84 @@
+/* 页头 */
+iframe.my_header{
+    width: 100%;
+    height: 110px;
+    margin-bottom: -5px;
+}
+/* 页尾 */
+footer .my_footer{
+    height:1000px;
+    width: 100%;
+}
+/* 内容图片 */
+.center .nei_title{
+    clear: both;
+    padding: 75px 0;
+    text-align: center;
+}
+.center .nei_title b{
+    font-size: 36px;
+    line-height: 45px;    
+    display: block;
+}
+.center .nei_title i{
+    font-size: 20px;
+    line-height: 22px;
+    display: block;
+}
+
+/* 下面 */
+.center .Information{
+    width: 1250px;
+}
+.center .Information ul li{
+    float: left;
+    width: 600px;
+    padding: 0 20px 20px 0;
+}
+.center .Information ul li a{
+    display: block;
+    height: 170px;
+    background-color: #F0F0F0;
+    position: relative;
+}
+.center .Information ul li a:hover{
+    background-color:#FFD307;
+}
+.center .Information ul li a ins{
+    float: left;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.center .Information ul li a span{
+    width: 332px;
+    float: right;
+    position: relative;
+    font-size: 12px;
+    padding:0 20px;
+}
+.center .Information ul li a span b{
+    font-size: 18px;
+    display: block;
+    line-height: 30px;
+    color: #000000;
+    margin-top: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.center .Information ul li a span cite{
+    height: 54px;
+    line-height: 18px;
+    color: #000000;
+    padding-top: 16px;
+    display: block;
+    font-style: normal;
+}
+.center .Information ul li a span i{
+    line-height: 18px;
+    color: #a0a0a0;
+    font-style: normal;
+    padding-top: 16px;
+    display: block;
+}

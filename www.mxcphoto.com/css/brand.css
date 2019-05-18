@@ -1,0 +1,31 @@
+/* 页头 */
+iframe.my_header{
+    width: 100%;
+    height: 110px;
+}
+/* 页尾 */
+footer .my_footer{
+    height:1000px;
+    width: 100%;
+}
+.igbanner img{
+    width: 100%;
+    height: 480px;
+    margin-top: -4px;
+}
+/* 内容图片 */
+.center .nei_title{
+    clear: both;
+    padding: 75px 0;
+    text-align: center;
+}
+.center .nei_title b{
+    font-size: 36px;
+    line-height: 45px;    
+    display: block;
+}
+.center .nei_title i{
+    font-size: 20px;
+    line-height: 22px;
+    display: block;
+}

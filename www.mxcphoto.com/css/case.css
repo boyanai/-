@@ -1,0 +1,92 @@
+*{margin: 0;padding: 0;}
+/* 页头 */
+iframe.my_header{
+    width: 100%;
+    height: 110px;
+    position: absolute;
+    top: 0px;
+}
+/* 页尾 */
+footer .my_footer{
+    height:1000px;
+    width: 100%;
+}
+/* 第一个图片 */
+.bigbanner{
+    margin-top: 110px;
+}
+.bigbanner img{
+    width: 100%;
+}
+/* 内容图片 */
+.center .nei_title{
+    clear: both;
+    padding: 75px 0;
+    text-align: center;
+}
+.center .nei_title b{
+    font-size: 36px;
+    line-height: 45px;    
+    display: block;
+}
+.center .nei_title i{
+    font-size: 20px;
+    line-height: 22px;
+    display: block;
+}
+/* 文字 */
+.WorkShow li{
+    clear: both;
+}
+.WorkShow li:hover div{
+    background: #FFD307;
+}
+.WorkShow li div{
+    padding: 20px; 
+    text-align: ocenter;
+    color: #000000;
+    height: 79px;
+    width: 1180px;
+    margin: 10px 0;
+}
+.WorkShow li div p{
+    width: 120px;
+    height: 79px;
+    font-size: 60px;
+    border: 1px solid;
+    float: left;
+    margin-bottom: 45px;
+}
+.WorkShow li div h3{
+    font-size: 36px;
+    float: left;
+    width: 270px;
+    line-height: 22px;
+    margin-top: 30px;
+}
+.WorkShow li div h4{
+    float: left;
+    width: 480px;
+    text-align: right;   
+}
+.WorkShow li div b{
+    float: left;
+    height: 55px;
+    border:1px solid #000000;
+    display: inline-block;
+    margin:15px 15px; 
+}
+.WorkShow li div em{
+    width: 255px;
+    height: 55px;
+    text-align: center;
+    font-size: 24px;
+    float: left;
+    border: 1px solid #000000;
+    line-height: 55px;
+    margin-top: 15px;
+}
+
+
+
+
